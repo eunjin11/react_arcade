@@ -6,6 +6,10 @@ import "./index.css";
 
 import Menu from "./Menu";
 import GuGuDan from "./GuGuDan";
+import WordRelay from "./WordRelay";
+import RSP from "./RSP";
+import ResponseCheck from "./ResponseCheck";
+import Lotto from "./Lotto";
 
 import reportWebVitals from "./reportWebVitals";
 import {
@@ -18,12 +22,18 @@ import {
 import githubLogo from "./github-mark.svg";
 import notionLogo from "./notion.svg";
 
+import wordRelayimg from "./wordRelay.png";
+import RSPimg from "./RSP.png";
+import ResponseCheckimg from "./ResponseCheck.png";
+import gugudanimg from "./gugudan.png";
+import lottoimg from "./lotto.png";
+
 function App() {
   return (
     <div>
       <div className="logo-box">
         <a
-          href="https://github.com/eunjin11"
+          href="https://github.com/eunjin11/react_arcade"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -55,20 +65,26 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/topics" element={<Topics></Topics>}></Route>
-        <Route path="/contact" element={<Contact></Contact>}></Route>
+
+        <Route path="/wordrelay" element={<WordRelay></WordRelay>}></Route>
         <Route path="/gugudan" element={<GuGuDan></GuGuDan>}></Route>
+        <Route path="/rsp" element={<RSP></RSP>}></Route>
+        <Route
+          path="/responsecheck"
+          element={<ResponseCheck></ResponseCheck>}
+        ></Route>
+        <Route path="/lotto" element={<Lotto></Lotto>}></Route>
         <Route path="/*" element={"Not found"}></Route>
       </Routes>
     </div>
   );
 }
 const gameList = [
-  { title: "끝말잇기", img: "링크", link: "/" },
-  { title: "구구단", img: "링크", link: "/gugudan" },
-  { title: "숫자 야구 게임", img: "링크", link: "/gugudan" },
-  { title: "반응 속도 게임", img: "링크", link: "/" },
-  { title: "가위바위보", img: "링크", link: "/" },
+  { title: "끝말잇기", img: wordRelayimg, link: "/wordrelay" },
+  { title: "구구단", img: gugudanimg, link: "/gugudan" },
+  { title: "로또 숫자 뽑기", img: lottoimg, link: "/lotto" },
+  { title: "반응 속도 게임", img: ResponseCheckimg, link: "/responsecheck" },
+  { title: "가위바위보", img: RSPimg, link: "/rsp" },
 ];
 
 function Home() {
@@ -83,24 +99,6 @@ function Home() {
           />
         ))}
       </div>
-    </div>
-  );
-}
-
-function Topics() {
-  return (
-    <div>
-      <h2>Topics</h2>
-      Topics...
-    </div>
-  );
-}
-
-function Contact() {
-  return (
-    <div>
-      <h2>Contact</h2>
-      Contact...
     </div>
   );
 }
