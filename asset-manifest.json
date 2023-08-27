@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react_arcade/static/css/main.3b9349f0.css",
+    "main.js": "/react_arcade/static/js/main.6bf847db.js",
+    "static/js/787.87440d06.chunk.js": "/react_arcade/static/js/787.87440d06.chunk.js",
+    "static/media/RSP.png": "/react_arcade/static/media/RSP.a64f3f276cc59f09349c.png",
+    "static/media/lotto.png": "/react_arcade/static/media/lotto.e454f79c50fa3c355b4a.png",
+    "static/media/ResponseCheck.png": "/react_arcade/static/media/ResponseCheck.77b6ae68a35378ae0689.png",
+    "static/media/gugudan.png": "/react_arcade/static/media/gugudan.e62acd76691cb5e88650.png",
+    "static/media/wordRelay.png": "/react_arcade/static/media/wordRelay.64968e5b05e50c25f084.png",
+    "static/media/notion.svg": "/react_arcade/static/media/notion.65b1b6a3997ea385f1a4bbfcbd0229f3.svg",
+    "static/media/github-mark.svg": "/react_arcade/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "index.html": "/react_arcade/index.html",
+    "main.3b9349f0.css.map": "/react_arcade/static/css/main.3b9349f0.css.map",
+    "main.6bf847db.js.map": "/react_arcade/static/js/main.6bf847db.js.map",
+    "787.87440d06.chunk.js.map": "/react_arcade/static/js/787.87440d06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b9349f0.css",
+    "static/js/main.6bf847db.js"
+  ]
+}
