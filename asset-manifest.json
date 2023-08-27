@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_arcade/static/css/main.3b9349f0.css",
-    "main.js": "/react_arcade/static/js/main.c1aed3b3.js",
+    "main.js": "/react_arcade/static/js/main.3daeead5.js",
     "static/js/787.87440d06.chunk.js": "/react_arcade/static/js/787.87440d06.chunk.js",
     "static/media/RSP.png": "/react_arcade/static/media/RSP.a64f3f276cc59f09349c.png",
     "static/media/lotto.png": "/react_arcade/static/media/lotto.e454f79c50fa3c355b4a.png",
@@ -12,11 +12,11 @@
     "static/media/github-mark.svg": "/react_arcade/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/react_arcade/index.html",
     "main.3b9349f0.css.map": "/react_arcade/static/css/main.3b9349f0.css.map",
-    "main.c1aed3b3.js.map": "/react_arcade/static/js/main.c1aed3b3.js.map",
+    "main.3daeead5.js.map": "/react_arcade/static/js/main.3daeead5.js.map",
     "787.87440d06.chunk.js.map": "/react_arcade/static/js/787.87440d06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b9349f0.css",
-    "static/js/main.c1aed3b3.js"
+    "static/js/main.3daeead5.js"
   ]
 }
